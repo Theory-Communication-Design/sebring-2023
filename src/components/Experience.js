@@ -11,7 +11,7 @@ export default function Experience({
     <div className="custom-grid items-center mb-6 md:mb-12">
       <div className="w-full">
         <Image
-          className=" w-5/12 md:w-10/12 mx-auto"
+          className=" w-5/12 md:w-9/12 mx-auto"
           src={closed ? closedIcon : icon}
           alt={altText}
         />
