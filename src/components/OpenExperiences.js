@@ -21,8 +21,8 @@ export default function OpenExperiences() {
       <VideoBackground videoPath="/SebringReflexLoop.mp4" />
       <div className="absolute top-0 z-30 bg-[#0266b3] w-full text-center text-xs lg:text-base text-slate-200 py-2">
         <h3>
-          **In order to redeem your Unrivaled Experience, participants must have
-          a Mobil 1 Twelve Hours of Sebring ticket for Saturday, March 18.
+          In order to redeem your Unrivaled Experience, participants must have a
+          Mobil 1 Twelve Hours of Sebring ticket for Saturday, March 18.
         </h3>
       </div>
       <div className="z-30 relative max-w-3xl mx-auto pt-24 px-4 lg:px-0">
