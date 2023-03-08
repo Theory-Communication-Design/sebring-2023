@@ -223,3 +223,17 @@ body {
     rgba(0, 0, 0, 1)
   );
 }
+
+/* ---- END CUSTOM VIDEO CSS ---- */
+/* ---- CUSTOM GRID ---- */
+
+.custom-grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+@media (min-width: 768px) {
+  .custom-grid {
+    grid-template-columns: 200px 1fr;
+  }
+}

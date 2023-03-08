@@ -16,7 +16,7 @@ export default function ClosedExperiences() {
       }}
       className="h-screen"
     >
-      <div className="max-w-3xl mx-auto pt-24">
+      <div className="max-w-3xl mx-auto pt-24 px-4 lg:px-0">
         <div className="w-1/2 mx-auto">
           <Logo image={logo} altText="Unrivaled Experiences" />
         </div>
@@ -34,7 +34,7 @@ export default function ClosedExperiences() {
         <div>
           <Link
             href="/survey"
-            className="block w-1/2 text-white font-bold uppercase bg-red-500 mx-auto text-center py-2 rounded-lg text-3xl mt-36"
+            className="block md:w-1/2 text-white font-bold uppercase bg-red-500 mx-auto text-center py-2 rounded-lg text-3xl mt-36"
           >{`Let's Go!`}</Link>
         </div>
       </div>

@@ -9,8 +9,10 @@ export default function SurveyPage() {
         background: `url(${bg.src})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
       }}
-      className="h-screen"
+      className="h-screen px-4 md:px-0 overflow-auto"
     >
       <Form formId="141" />
     </div>

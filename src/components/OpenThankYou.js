@@ -12,15 +12,16 @@ export default function ClosedExperiences() {
         background: `url(${bg.src})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
+        backgroundAttachment: "fixed",
       }}
-      className="h-screen"
+      className="h-screen px-4 lg:px-0"
     >
       <div className="max-w-3xl mx-auto pt-24">
         <div className="w-1/2 mx-auto">
           <Logo image={logo} altText="Unrivaled Experiences" />
         </div>
         <div className="text-center text-white">
-          <h2 className="text-white font-bold text-center text-4xl mt-36">
+          <h2 className="text-white font-bold text-center text-4xl mt-16 md:mt-36">
             Thank You!
           </h2>
           <h3 className="text-2xl mt-8 font-bold">
@@ -36,7 +37,7 @@ export default function ClosedExperiences() {
             confirmation.
           </p>
         </div>
-        <div className="mt-48">
+        <div className="mt-24 lg:mt-48">
           <Image src={pins} alt="Exclusive pins" />
         </div>
         <div className="text-center text-white font-bold mt-24 text-3xl">

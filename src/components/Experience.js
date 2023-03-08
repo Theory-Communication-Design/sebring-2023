@@ -8,13 +8,10 @@ export default function Experience({
   closedIcon,
 }) {
   return (
-    <div
-      style={{ display: "grid", gridTemplateColumns: "200px 1fr" }}
-      className="items-center mb-12"
-    >
+    <div className="custom-grid items-center mb-6 md:mb-12">
       <div className="w-full">
         <Image
-          className="w-9=10/12 mx-auto"
+          className=" w-5/12 md:w-10/12 mx-auto"
           src={closed ? closedIcon : icon}
           alt={altText}
         />
@@ -22,7 +19,7 @@ export default function Experience({
       <h3
         className={`${
           closed ? "text-[#343334]" : "text-white"
-        } font-bold uppercase text-5xl italic tracking-wide`}
+        } font-bold uppercase text-2xl md:text-5xl italic tracking-wide`}
       >
         {text}
       </h3>

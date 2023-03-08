@@ -13,7 +13,7 @@ export default function ClosedExperiences() {
         backgroundPosition: "center",
         backgroundSize: "cover",
       }}
-      className="h-screen"
+      className="h-screen px-4 lg:px-0"
     >
       <div className="max-w-3xl mx-auto pt-24">
         <div className="w-1/2 mx-auto">

@@ -19,12 +19,12 @@ export default function OpenExperiences() {
   return (
     <>
       <VideoBackground videoPath="/SebringReflexLoop.mp4" />
-      <div className="z-30 relative max-w-3xl mx-auto pt-24">
+      <div className="z-30 relative max-w-3xl mx-auto pt-24 px-4 lg:px-0">
         <div className="w-3/4 mx-auto">
           <Logo image={logo} altText="Unrivaled Experiences" />
         </div>
         <div>
-          <h2 className="text-white font-bold text-center text-4xl my-20">
+          <h2 className="text-white font-bold text-center text-3xl md:text-4xl my-10 md:my-20">
             Mobil 1 Unrivaled Experiences bring you behind the scenes like never
             before
           </h2>
@@ -68,7 +68,7 @@ export default function OpenExperiences() {
         <div>
           <Link
             href="/survey"
-            className="block w-1/2 text-white font-bold uppercase bg-red-500 mx-auto text-center py-2 rounded-lg text-3xl mt-12"
+            className="block md:w-1/2 text-white font-bold uppercase bg-red-500 mx-auto text-center py-2 rounded-lg text-3xl mt-12"
           >{`Let's Go!`}</Link>
         </div>
         <div className="text-slate-200 text-xs mt-12 mb-24">
