@@ -43,6 +43,17 @@ export default function ClosedExperiences() {
         <div className="text-center text-white font-bold mt-24 text-3xl">
           <h3>{`Don't forget to stop by the Vault in Vendor Village to collect your limited edition pin.`}</h3>
         </div>
+        <div className="text-slate-200 text-xs mt-12 mb-24">
+          <p className="mb-2">
+            *1 entry per person. Must be present to win and 18 or older. No cash
+            value. Restrictions apply.
+          </p>
+          <p>
+            **In order to redeem your Unrivaled Experience, participants must
+            have a Mobil 1 Twelve Hours of Sebring ticket for Saturday, March
+            18.
+          </p>
+        </div>
       </div>
     </div>
   );

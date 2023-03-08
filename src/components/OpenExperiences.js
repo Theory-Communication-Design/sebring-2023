@@ -73,15 +73,13 @@ export default function OpenExperiences() {
         </div>
         <div className="text-slate-200 text-xs mt-12 mb-24">
           <p className="mb-2">
-            *In order to redeem your Unrivaled Experience, participants must
-            have a Mobil 1 Twelve Hours of Sebring ticket for Saturday, March
-            18.
+            *1 entry per person. Must be present to win and 18 or older. No cash
+            value. Restrictions apply.
           </p>
           <p>
-            **Please take note of these restrictions as if you do not claim your
-            experience by the time listed on your confirmation email, your prize
-            will move to the next race fan at the time listed on your
-            confirmation.
+            **In order to redeem your Unrivaled Experience, participants must
+            have a Mobil 1 Twelve Hours of Sebring ticket for Saturday, March
+            18.
           </p>
         </div>
       </div>
