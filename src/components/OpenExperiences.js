@@ -46,18 +46,21 @@ export default function OpenExperiences() {
             text="Vip Parade Lap"
             altText="Crossed racing flags line icon"
             closedIcon={closedRace}
+            closed
           />
           <Experience
             icon={racingflag}
             text="Flag Stand Experience"
             altText="Single racing flag line icon"
             closedIcon={closedRacingflag}
+            closed
           />
           <Experience
             icon={pitstop}
             text="Vip Hot Pit Tour"
             altText="Garage line icon"
             closedIcon={closedPitstop}
+            closed
           />
           <Experience
             icon={circuit}
@@ -69,6 +72,7 @@ export default function OpenExperiences() {
             text="Vip Parking"
             altText="Trophy line icon"
             closedIcon={closedTrophy}
+            closed
           />
         </div>
         <div>
