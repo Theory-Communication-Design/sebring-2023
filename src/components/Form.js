@@ -6,7 +6,7 @@ export default function Form({ formId }) {
   }
 
   return (
-    <div>
+    <div className="max-w-3xl mx-auto">
       <div id="form" />
       <Script
         src="https://www.cognitoforms.com/f/seamless.js"

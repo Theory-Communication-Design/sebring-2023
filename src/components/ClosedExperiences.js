@@ -13,8 +13,9 @@ export default function ClosedExperiences() {
         background: `url(${bg.src})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
+        backgroundAttachment: "fixed",
       }}
-      className="h-screen"
+      className="h-screen overflow-auto"
     >
       <div className="max-w-3xl mx-auto pt-24 px-4 lg:px-0">
         <div className="w-1/2 mx-auto">

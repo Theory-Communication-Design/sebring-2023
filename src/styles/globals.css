@@ -188,10 +188,10 @@ body {
   @apply block ml-8 italic text-xl !important;
 }
 
-.cog-field--295 label:nth-child(2)::after {
+/* .cog-field--295 label:nth-child(2)::after {
   content: "Kick off the Mobil 1 Twelve Hours of Sebring with the best seat in the house - riding shotgun in a parade lap car on race day" !important;
   @apply block ml-8 italic text-xl !important;
-}
+} */
 
 .cog-field--295 label:nth-child(3)::after {
   content: "The best content on anyone's IG starts here. You'll climb the ladder where the checkered flag is waved and experience the race like never before." !important;
@@ -203,7 +203,7 @@ body {
   @apply block ml-8 italic text-xl !important;
 }
 
-.cog-field--295 label:nth-child(5)::after {
+.cog-field--295 label:nth-child(2)::after {
   content: "Escape the Sunshine State sun at one of the best passing corners on the track. Packed with refreshments and shade, this is the spot to be a VIP at Sebring" !important;
   @apply block ml-8 italic text-xl !important;
 }

@@ -14,7 +14,7 @@ export default function ClosedExperiences() {
         backgroundSize: "cover",
         backgroundAttachment: "fixed",
       }}
-      className="h-screen px-4 lg:px-0"
+      className="h-screen px-4 lg:px-0 overflow-auto"
     >
       <div className="max-w-3xl mx-auto pt-24">
         <div className="w-1/2 mx-auto">
